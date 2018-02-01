@@ -8,39 +8,39 @@
     tools:context="com.example.lenovo.myapplication.MainActivity">
 
       <Button
-          android:id="@+id/button"
+          android:id="@+id/camera_button"
           android:layout_width="204dp"
           android:layout_height="200dp"
           android:background="@drawable/camera"
-          tools:layout_editor_absoluteX="66dp"
-          tools:layout_editor_absoluteY="103dp" />
+          tools:layout_editor_absoluteX="90dp"
+          tools:layout_editor_absoluteY="141dp" />
 
       <LinearLayout
           android:layout_width="405dp"
           android:layout_height="72dp"
+          android:background="#fefefe"
           android:orientation="horizontal"
           tools:layout_editor_absoluteX="0dp"
-          tools:layout_editor_absoluteY="438dp"
-          android:background="#fefefe" >
+          tools:layout_editor_absoluteY="461dp">
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/favourite_history"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="@drawable/favourite_history" />
 
             <Button
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/search"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="@drawable/search" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@drawable/person"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="@drawable/person" />
       </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
