@@ -47,6 +47,13 @@ public class MainActivity extends AppCompatActivity {
                 setContentView(R.layout.activity_camera);
             }
         });
+        Button person_button=(Button)this.findViewById(R.id.person);
+        person_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setContentView(R.layout.activity_person);
+            }
+        });
     };
 
 

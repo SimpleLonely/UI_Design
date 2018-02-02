@@ -24,19 +24,21 @@
           tools:layout_editor_absoluteY="461dp">
 
             <Button
+                android:id="@+id/favourite_history"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/favourite_history" />
 
             <Button
+                android:id="@+id/search"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:background="@drawable/search" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/person"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
