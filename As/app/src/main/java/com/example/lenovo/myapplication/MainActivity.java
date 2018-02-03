@@ -1,15 +1,15 @@
 package com.example.lenovo.myapplication;
 
-import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.TextView;
-import android.content.Intent;
+        import android.os.Bundle;
+        import android.support.annotation.NonNull;
+        import android.support.design.widget.BottomNavigationView;
+        import android.support.v7.app.AppCompatActivity;
+        import android.view.MenuItem;
+        import android.view.View;
+        import android.widget.Button;
+        import android.widget.ImageButton;
+        import android.widget.TextView;
+        import android.content.Intent;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,14 +44,17 @@ public class MainActivity extends AppCompatActivity {
         camera_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.activity_camera);
+                Intent i=new Intent(MainActivity.this,CameraActivity.class);
+                startActivity(i);
             }
         });
+
         Button person_button=(Button)this.findViewById(R.id.person);
         person_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setContentView(R.layout.activity_person);
+                Intent i=new Intent(MainActivity.this,PersonActivity.class);
+                startActivity(i);
             }
         });
     };

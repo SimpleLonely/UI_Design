@@ -24,16 +24,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CameraActivity"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_camera"
-            android:parentActivityName=".MainActivity"
-            android:theme="@style/FullscreenTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.lenovo.myapplication.MainActivity" />
-        </activity>
-        <activity
             android:name=".PersonActivity"
             android:label="@string/title_activity_person"
             android:parentActivityName=".MainActivity">
@@ -42,11 +32,25 @@
                 android:value="com.example.lenovo.myapplication.MainActivity" />
         </activity>
         <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity
             android:name=".DetailActivity"
-            android:label="@string/title_activity_detail"></activity>
+            android:label="@string/title_activity_detail" />
+        <activity
+            android:name=".CameraActivity"
+            android:label="@string/title_activity_camera"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lenovo.myapplication.MainActivity" />
+        </activity>
+        <activity android:name=".CameraConfirmActivity" />
+        <activity
+            android:name=".SearchResultActivity"
+            android:label="@string/title_activity_search_result"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lenovo.myapplication.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

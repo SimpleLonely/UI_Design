@@ -23,4 +23,5 @@
         completions."
     </string>
     <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
 </resources>
