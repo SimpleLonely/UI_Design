@@ -7,29 +7,32 @@
     tools:context="com.example.lenovo.myapplication.CameraConfirmActivity">
 
     <RelativeLayout
-        android:layout_width="368dp"
-        android:layout_height="429dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="74dp">
 
         <Button
             android:id="@+id/confirm"
-            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="确认" />
+            android:layout_width="wrap_content"
+            android:text="确认"
+            android:layout_marginStart="50dp"
+            android:layout_alignParentBottom="true"/>
 
         <Button
             android:id="@+id/back"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="重拍" />
+            android:text="重拍"
+            android:layout_marginLeft="270dp"
+
+            android:layout_alignParentBottom="true"/>
 
         <SurfaceView
             android:id="@+id/surfaceView"
-            android:layout_width="95dp"
-            android:layout_height="66dp"
+            android:layout_width="match_parent"
+            android:layout_height="530dp"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="0dp" />
     </RelativeLayout>
