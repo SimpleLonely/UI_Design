@@ -7,43 +7,39 @@
     tools:context="com.example.lenovo.myapplication.CameraActivity">
 
 
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="354dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="149dp">
 
-<LinearLayout
-            android:id="@+id/fullscreen_content_controls"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|center_horizontal"
-            android:background="@color/black_overlay"
-            android:orientation="horizontal">
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/back1" />
 
-    <ImageView
-        android:id="@+id/album"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:src="@android:drawable/sym_def_app_icon" />
+        <Button
+            android:id="@+id/shoot"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/shoot" />
 
-    <Button
-        android:id="@+id/shoot"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
-        android:background="@drawable/shoot" />
+        <ImageView
+            android:id="@+id/album"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/sym_def_app_icon" />
 
-    <Button
-        android:id="@+id/back"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight="1"
-        android:background="@drawable/back1" />
-
-        </LinearLayout>
-
-    <SurfaceView
-        android:id="@+id/surfaceView"
-        android:layout_width="110dp"
-        android:layout_height="81dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="60dp" />
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="110dp"
+            android:layout_height="81dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="60dp" />
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
 

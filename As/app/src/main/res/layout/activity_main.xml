@@ -7,28 +7,19 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.myapplication.MainActivity">
 
-      <Button
-          android:id="@+id/camera_button"
-          android:layout_width="204dp"
-          android:layout_height="200dp"
-          android:background="@drawable/camera"
-          tools:layout_editor_absoluteX="90dp"
-          tools:layout_editor_absoluteY="141dp" />
 
-      <LinearLayout
-          android:layout_width="405dp"
-          android:layout_height="72dp"
-          android:background="#fefefe"
-          android:orientation="horizontal"
+      <RelativeLayout
+          android:layout_width="381dp"
+          android:layout_height="451dp"
           tools:layout_editor_absoluteX="0dp"
-          tools:layout_editor_absoluteY="461dp">
+          tools:layout_editor_absoluteY="0dp">
 
             <Button
-                android:id="@+id/favourite_history"
+                android:id="@+id/person"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/favourite_history" />
+                android:background="@drawable/person" />
 
             <Button
                 android:id="@+id/word_search"
@@ -38,11 +29,19 @@
                 android:background="@drawable/search" />
 
             <Button
-                android:id="@+id/person"
+                android:id="@+id/favourite_history"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
-                android:background="@drawable/person" />
-      </LinearLayout>
+                android:background="@drawable/favourite_history" />
+
+            <Button
+                android:id="@+id/camera_button"
+                android:layout_width="204dp"
+                android:layout_height="200dp"
+                android:background="@drawable/camera"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="201dp" />
+      </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

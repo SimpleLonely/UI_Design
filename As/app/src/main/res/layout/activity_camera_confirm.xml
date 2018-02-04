@@ -6,22 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.myapplication.CameraConfirmActivity">
 
-    <LinearLayout
-        android:id="@+id/fullscreen_content_controls"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-        android:background="@color/black_overlay"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="515dp">
-
-        <Button
-            android:id="@+id/back"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="重拍" />
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="429dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="74dp">
 
         <Button
             android:id="@+id/confirm"
@@ -30,13 +19,19 @@
             android:layout_weight="1"
             android:text="确认" />
 
-    </LinearLayout>
+        <Button
+            android:id="@+id/back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="重拍" />
 
-    <SurfaceView
-        android:id="@+id/surfaceView"
-        android:layout_width="95dp"
-        android:layout_height="66dp"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="95dp"
+            android:layout_height="66dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

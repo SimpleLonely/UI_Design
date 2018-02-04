@@ -6,26 +6,26 @@
     android:layout_height="match_parent"
     tools:context="com.example.lenovo.myapplication.PersonActivity">
 
-    <ListView
-        android:id="@+id/person_list"
-        android:layout_width="371dp"
-        android:layout_height="329dp"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="110dp" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="97dp"
-        android:layout_height="88dp"
-        android:src="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
     <RelativeLayout
-        android:layout_width="252dp"
-        android:layout_height="102dp"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:layout_width="400dp"
+        android:layout_height="800dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="4dp">
+
+        <ListView
+            android:id="@+id/person_list"
+            android:layout_width="371dp"
+            android:layout_height="800dp"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="97dp"
+            android:layout_height="88dp"
+            android:src="@mipmap/ic_launcher"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
 
         <TextView
             android:id="@+id/name"
