@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         Button word_search_button=(Button)this.findViewById(R.id.word_search);
-        person_button.setOnClickListener(new View.OnClickListener() {
+        word_search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(MainActivity.this,WordSearchActivity.class);

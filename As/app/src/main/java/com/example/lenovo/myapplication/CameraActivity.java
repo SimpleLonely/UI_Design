@@ -22,15 +22,15 @@ public class CameraActivity extends Activity {
             }
         });
         //重拍
-        /*Button back_button=(Button)this.findViewById(R.id.back);
+        Button back_button=(Button)this.findViewById(R.id.back);
         back_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 CameraActivity.this.finish();
             }
-        });*/
+        });
 
-        Button album_button=(Button)this.findViewById(R.id.album);
+
         //调用相册
     }
 
