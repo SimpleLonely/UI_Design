@@ -31,7 +31,7 @@
                 android:background="@drawable/favourite_history" />
 
             <Button
-                android:id="@+id/search"
+                android:id="@+id/word_search"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"

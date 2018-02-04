@@ -16,11 +16,12 @@
             android:background="@color/black_overlay"
             android:orientation="horizontal">
 
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:src="@android:drawable/btn_minus" />
+    <ImageView
+        android:id="@+id/album"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@android:drawable/sym_def_app_icon" />
 
     <Button
         android:id="@+id/shoot"
@@ -43,6 +44,6 @@
         android:layout_width="110dp"
         android:layout_height="81dp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="25dp" />
+        tools:layout_editor_absoluteY="60dp" />
 </android.support.constraint.ConstraintLayout>
 

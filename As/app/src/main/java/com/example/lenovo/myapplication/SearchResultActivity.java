@@ -18,7 +18,7 @@ public class SearchResultActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_result);
-        //getActionBar().setDisplayHomeAsUpEnabled(true);
+        //
         mContext = SearchResultActivity.this;
         problem_list = (ListView) findViewById(R.id.problems_list);
         mData = new LinkedList<Problem>();

@@ -51,6 +51,22 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.lenovo.myapplication.MainActivity" />
         </activity>
+        <activity
+            android:name=".WordSearchActivity"
+            android:label="@string/title_activity_word_search"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lenovo.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HistoryFavouriteActivity"
+            android:label="@string/title_activity_history_favourite"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lenovo.myapplication.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

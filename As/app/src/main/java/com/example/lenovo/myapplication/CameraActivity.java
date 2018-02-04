@@ -12,7 +12,7 @@ public class CameraActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camera);
-        //getActionBar().setDisplayHomeAsUpEnabled(true);
+        //按下拍照键，仅实现跳转到Confirm界面
         Button person_button=(Button)this.findViewById(R.id.shoot);
         person_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -21,6 +21,17 @@ public class CameraActivity extends Activity {
                 startActivity(i);
             }
         });
+        //重拍
+        /*Button back_button=(Button)this.findViewById(R.id.back);
+        back_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CameraActivity.this.finish();
+            }
+        });*/
+
+        Button album_button=(Button)this.findViewById(R.id.album);
+        //调用相册
     }
 
 }

@@ -24,4 +24,6 @@
     </string>
     <string name="title_activity_detail">DetailActivity</string>
     <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_activity_word_search">WordSearchActivity</string>
+    <string name="title_activity_history_favourite">HistoryFavouriteActivity</string>
 </resources>

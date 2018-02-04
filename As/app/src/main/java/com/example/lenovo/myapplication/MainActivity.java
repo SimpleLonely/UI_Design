@@ -13,33 +13,13 @@ package com.example.lenovo.myapplication;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView mTextMessage;
 
-    /*private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
-            = new BottomNavigationView.OnNavigationItemSelectedListener() {
-
-        @Override
-        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText(R.string.title_home);
-                    return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_dashboard);
-                    return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
-                    return true;
-            }
-            return false;
-        }
-    };*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mTextMessage = (TextView) findViewById(R.id.message);
+
         Button camera_button=(Button)this.findViewById(R.id.camera_button);
         camera_button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +34,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i=new Intent(MainActivity.this,PersonActivity.class);
+                startActivity(i);
+            }
+        });
+
+        Button word_search_button=(Button)this.findViewById(R.id.word_search);
+        person_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(MainActivity.this,WordSearchActivity.class);
                 startActivity(i);
             }
         });

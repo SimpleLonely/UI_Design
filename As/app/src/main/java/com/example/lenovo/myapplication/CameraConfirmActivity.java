@@ -24,5 +24,13 @@ public class CameraConfirmActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        Button back_button=(Button)this.findViewById(R.id.back);
+        back_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                CameraConfirmActivity.this.finish();
+            }
+        });
     }
 }
