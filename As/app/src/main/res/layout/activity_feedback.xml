@@ -24,7 +24,18 @@
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:background="#ffffff"
-        android:layout_below="@+id/yhfk"/>
+        android:layout_below="@+id/yhfk">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/tp"
