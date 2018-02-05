@@ -26,7 +26,7 @@ public class HistoryFavouriteActivity extends AppCompatActivity  implements Radi
         setContentView(R.layout.activity_history_favourite);
         mAdapter = new MyFragmentPagerAdapter(getSupportFragmentManager());
         bindViews();
-        rb_history.setChecked(true);
+        rb_favourite.setChecked(true);
     }
 
     private void bindViews() {

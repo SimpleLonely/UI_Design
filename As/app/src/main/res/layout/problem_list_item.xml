@@ -6,17 +6,26 @@
 
 
     <!-- 只显示题目-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
     <TextView
         android:id="@+id/problem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="8dp"
+        android:paddingLeft="10dp"
         android:textColor="#1D1D1C"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
         android:textSize="20sp" />
-    <ImageView
-        android:id="@+id/arrow"
-        android:layout_width="64dp"
-        android:layout_height="64dp"
-        android:baselineAlignBottom="true"
-        android:paddingLeft="8dp" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:baselineAlignBottom="true"
+            android:paddingLeft="8dp" />
+    </RelativeLayout>
 </LinearLayout>

@@ -52,7 +52,7 @@ public class PersonActivity extends Activity implements AdapterView.OnItemClickL
                 break;
             }                                                   //设置
             case 2:{
-                Intent i=new Intent(PersonActivity.this,MainActivity.class);
+                Intent i=new Intent(PersonActivity.this,FeedbackActivity.class);
                 startActivity(i);
                 break;
             }                                                   //反馈

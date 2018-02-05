@@ -9,53 +9,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="226dp">
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="题目："
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="20dp"
-            android:textSize="20sp"
-            android:textColor="#1184ff"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-        />
-
-        <TextView
-            android:id="@+id/textView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="199dp"
-            android:layout_centerInParent="true" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="35dp"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="100dp"/>
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="174dp"
-            android:text="答案："
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="227dp"
-            android:textSize="20sp"
-            android:textColor="#1184ff"
-            android:layout_marginLeft="10dp"/>
 
         <Button
             android:id="@+id/favourite"
@@ -98,13 +53,60 @@
 
         <Button
             android:id="@+id/warning"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_alignParentBottom="true"
-            android:text="Button"
+
+            android:background="@mipmap/warning"
             android:layout_toRightOf="@+id/thumb"
             android:layout_marginLeft="30dp"
             android:layout_marginBottom="10dp"/>
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="35dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="199dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="题目："
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="174dp"
+            android:text="答案："
+            android:textSize="15sp"
+            tools:layout_editor_absoluteX="0dp"
+
+            tools:layout_editor_absoluteY="227dp" />
+
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
