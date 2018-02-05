@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.myapplication.FeedbackActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f6f9"  >
+
+    <TextView
+        android:id="@+id/yhfk"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="用户反馈"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="17sp"
+        />
+    <RelativeLayout
+        android:id="@+id/yhfk1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/yhfk"/>
+
+    <TextView
+        android:id="@+id/tp"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="图片（选填，提供问题截图）"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/yhfk1"
+        android:textSize="17sp"/>
+    <RelativeLayout
+        android:id="@+id/tp1"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#ffffff"
+        android:layout_below="@+id/tp">
+
+        <Button
+            android:id="@+id/tp2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/plus_picture"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:text="提交"
+        android:background="#2899f5"
+        android:textSize="17sp"
+        android:textColor="#ffffff"/>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

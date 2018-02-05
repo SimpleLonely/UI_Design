@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.myapplication.CameraConfirmActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="74dp">
+        <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+/>
+        <Button
+            android:id="@+id/confirm"
+            android:layout_height="50dp"
+            android:layout_width="60dp"
+
+
+            android:layout_marginRight="275dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/ok"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+
+            android:layout_marginLeft="290dp"
+            android:background="@mipmap/no"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
