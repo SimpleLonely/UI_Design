@@ -26,4 +26,6 @@
     <string name="title_activity_search_result">SearchResultActivity</string>
     <string name="title_activity_word_search">WordSearchActivity</string>
     <string name="title_activity_history_favourite">HistoryFavouriteActivity</string>
+    <string name="title_activity_mainactivity">小题督</string>
+
 </resources>

@@ -1,14 +1,16 @@
 package com.example.lenovo.myapplication;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.LinkedList;
 import java.util.List;
-
-public class WordSearchActivity extends Activity {
+public class WordSearchActivity extends Activity implements AdapterView.OnItemClickListener{
 
     private List<Subject> mData = null;
     private Context mContext;
@@ -26,6 +28,22 @@ public class WordSearchActivity extends Activity {
         mData.add(new Subject("线性代数",  R.mipmap.linear_algebra));
         mAdapter = new SubjectAdapter((LinkedList<Subject>) mData, mContext);
         list_subject.setAdapter(mAdapter);
+        list_subject.setOnItemClickListener(this);
     }
-
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        switch (position){
+            case 0:{
+                Intent i=new Intent(WordSearchActivity.this,MainActivity.class);
+                startActivity(i);
+                break;
+            }                                                   //微积分
+            case 1:{
+                Intent i=new Intent(WordSearchActivity.this,MainActivity.class);
+                startActivity(i);
+                break;
+            }                                                   //线性代数
+        };
+        return;
+    }
 }
