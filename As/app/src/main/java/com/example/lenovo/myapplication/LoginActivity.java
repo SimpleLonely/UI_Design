@@ -35,8 +35,25 @@ public class LoginActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(LoginActivity.this,MainActivity.class);
-                finish();   //销毁当前Activity
                 startActivity(intent);
+                finish();   //销毁当前Activity
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            //跳转至注册界面
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
+                finish();
+            }
+        });
+
+        forgetPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(LoginActivity.this,ForgetPasswordActivity.class));
+                finish();
             }
         });
     }
