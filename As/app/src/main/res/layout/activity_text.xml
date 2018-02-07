@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.myapplication.TextActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="70dp"
+            android:layout_height="64dp"
+            android:layout_below="@+id/button1"
+            android:layout_toEndOf="@+id/editText2"
+            android:background="@color/qmui_config_color_blue"
+            android:text="搜索"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="70dp"
+            android:layout_height="56dp"
+            android:layout_alignTop="@+id/editText2"
+            android:layout_toEndOf="@+id/editText2"
+            android:background="@color/qmui_config_color_gray_8"
+            android:text="符号"
+            tools:layout_editor_absoluteX="294dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="275dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:text="请输入题目" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

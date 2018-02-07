@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         word_search_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(MainActivity.this,WordSearchActivity.class);
+                Intent i=new Intent(MainActivity.this,TextActivity.class);
                 startActivity(i);
             }
         });

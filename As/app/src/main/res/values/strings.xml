@@ -1,14 +1,14 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">小题督</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
 
-    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_camera">拍照搜题</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="title_activity_person">PersonActivity</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_person">用户设置</string>
+    <string name="title_activity_login">登录</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">邮箱</string>
@@ -22,10 +22,11 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_detail">DetailActivity</string>
-    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_activity_detail">题目详情</string>
+    <string name="title_activity_search_result">搜索结果</string>
     <string name="title_activity_word_search">WordSearchActivity</string>
-    <string name="title_activity_history_favourite">HistoryFavouriteActivity</string>
+    <string name="title_activity_history_favourite">历史收藏</string>
     <string name="title_activity_mainactivity">小题督</string>
+    <string name="title_activity_text">文本搜索</string>
 
 </resources>
