@@ -70,19 +70,19 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_mainactivity"></activity>
+            android:label="@string/title_activity_mainactivity" />
         <activity
             android:name=".RegisterActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".IdentifyingCodeActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".OtherInfoActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".ForgetPasswordActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".TextActivity"
             android:label="@string/title_activity_text"
@@ -91,6 +91,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.lenovo.myapplication.MainActivity" />
         </activity>
+        <activity
+            android:name=".SelectGradeActivity"
+            android:label="@string/title_activity_select_grade"></activity>
     </application>
 
 </manifest>

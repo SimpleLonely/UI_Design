@@ -5,4 +5,20 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+    <string-array name="school_name">
+        <item>清华大学</item>
+        <item>北京大学</item>
+        <item>浙江大学</item>
+        <item>南京大学</item>
+        <item>复旦大学</item>
+        <item>上海交通大学</item>
+        <item>中国科学技术大学</item>
+        <item>哈尔滨工业大学</item>
+        <item>西安交通大学</item>
+    </string-array>
+    <string-array name="discipline_name">
+        <item>软件工程</item>
+        <item>计算机科学与技术</item>
+        <item>电子信息工程</item>
+    </string-array>
 </resources>

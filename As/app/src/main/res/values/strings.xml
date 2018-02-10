@@ -28,5 +28,6 @@
     <string name="title_activity_history_favourite">历史收藏</string>
     <string name="title_activity_mainactivity">小题督</string>
     <string name="title_activity_text">文本搜索</string>
-
+    <string name="title_activity_select_grade">SelectGradeActivity</string>
+    <string name="spin_title">请选择你的学校</string>
 </resources>

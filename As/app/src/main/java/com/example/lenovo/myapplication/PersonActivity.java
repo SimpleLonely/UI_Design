@@ -47,7 +47,7 @@ public class PersonActivity extends Activity implements AdapterView.OnItemClickL
                 break;
             }                                                   //消息
             case 1:{
-                Intent i=new Intent(PersonActivity.this,MainActivity.class);
+                Intent i=new Intent(PersonActivity.this,SelectGradeActivity.class);
                 startActivity(i);
                 break;
             }                                                   //设置
