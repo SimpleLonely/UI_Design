@@ -18,6 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
             android:layout_below="@+id/spinner"
             android:layout_marginTop="41dp"
             android:text="请选择你所在的年级" />
@@ -66,8 +67,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="39dp"
+            android:layout_marginStart="14dp"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="28dp"
             android:entries="@array/school_name"
             android:prompt="@string/spin_title"
             android:spinnerMode="dialog" />
@@ -78,6 +80,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
             android:text="请选择你的学校" />
 
         <TextView
@@ -85,6 +89,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
             android:layout_below="@+id/radioGroup"
             android:layout_marginTop="41dp"
             android:text="请选择你的专业" />
@@ -94,6 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
             android:layout_below="@+id/textView17"
             android:layout_marginTop="29dp"
             android:entries="@array/discipline_name"
@@ -105,6 +111,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_marginStart="14dp"
             android:layout_below="@+id/spinner2"
             android:layout_marginTop="40dp"
             android:text="是否有考研出国意向？" />
